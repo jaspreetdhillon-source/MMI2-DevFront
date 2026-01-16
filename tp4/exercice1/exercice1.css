@@ -1,0 +1,54 @@
+
+body {
+  margin: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Chaque bloc de texte */
+div {
+  width: 600px;               /* largeur fixée */
+  margin-left: 250px;         /* à 250px du bord gauche */
+  margin-bottom: 50px;       
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  border: 7px solid;
+  padding: 7px;
+}
+
+ul {
+  list-style: none;
+  position: fixed;      /* fixe à gauche */
+  top: 30px;           /* décalé du haut */
+  left: 0;              /* collé à gauche */
+  width: 180px;
+}
+
+ul li {
+  margin: 5px;
+}
+
+ul li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+ul li:nth-child(1) a { background-color: #ff2912; } 
+ul li:nth-child(2) a { background-color: #139e4d; } 
+ul li:nth-child(3) a { background-color: #025f9c; } 
+
+#para1 h2, #para1 p { color: #ff2912; border-color: #ff2912; padding: 50px;}
+#para2 h2, #para2 p { color: #139e4d; border-color: #139e4d; padding: 50px;}
+#para3 h2, #para3 p { color: #025f9c; border-color: #025f9c; padding: 50px;}
+
+/*  seul le paragraphe ciblé s'affiche  */
+div:target p {
+  display: block;
+}

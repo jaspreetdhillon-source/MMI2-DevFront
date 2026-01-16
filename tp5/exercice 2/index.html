@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Exercice 2 — Arrière-plan selon scroll</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Exercice 2 : noir → rouge selon le défilement</h1>
+    <p class="hint">Faites défiler pour voir la couleur passer de <code>#000000</code> à <code>#FF0000</code>.</p>
+
+    <section class="content">
+      <div class="long">
+        <p>Début du document — couleur : <code>#000000</code></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in.</p>
+        <p>Scroll pour faire évoluer la couleur d'arrière-plan.</p>
+        <p>Remplissage...</p><br><br>
+        <p>Remplissage...</p><br><br>
+        <p>Remplissage...</p><br><br>
+        <p>Remplissage...</p><br><br>
+        <p>Remplissage...</p><br><br>
+        <p>Remplissage...</p><br><br>
+        <p>Remplissage...</p><br><br>
+        <p>Fin du document — couleur : <code>#FF0000</code></p>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+<!--Cet exercice consistait à modifier la couleur de fond de la page en fonction du défilement. La difficulté a été de bien gérer le calcul entre la hauteur du document et celle de la fenêtre. Cet exercice m’a permis de mieux comprendre les événements liés au scroll. J’ai appris à lier une interaction visuelle au comportement de l’utilisateur que je pourrais utiliser dans mon hub.
+-->

@@ -1,0 +1,36 @@
+        body {
+            margin: 0;
+            font-family: 'Courier New', Courier, monospace;
+            line-height: 2;
+        }
+
+        /* Sections parallax */
+        .parallax {
+            height: 100vh;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 5em;
+        }
+
+        .bg1 {
+            background-image: url("https://external-preview.redd.it/2lIhEg02DIJyuB4iFJjuGtscUmtgUF6nQ9b5lAzSKwo.jpg?width=640&crop=smart&auto=webp&s=4b9d707a465d6b1d868ae84e5a8f75653856d241");
+        }
+
+        .bg2 {
+            background-image: url("https://boomf.com/cdn/shop/products/1_0c684da5-5c30-44ff-82cf-b345b8f589fd.jpg?height=791&v=1673945472&width=635");
+        }
+
+        /* Contenu texte */
+        .content {
+            padding: 60px;
+            background: #ffffff;
+        }
+
+        h2 {
+            text-align: center;
+        }
